@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="#38F186"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="Book Detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Ma Sach : "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/edMaSachDetail"
+            android:textSize="30dp"
+            android:editable="true"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Ma the loai : "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/edMaTheLoaiDetail"
+            android:textSize="30dp"
+
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Ten Sach : "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/edTenSachDetail"
+            android:textSize="30dp"
+
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Tac Gia : "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/edTacgiaDetail"
+            android:textSize="30dp"
+
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Nha Xuat Ban : "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/edNXBDetail"
+            android:textSize="30dp"
+
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="So Luong : "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/edSoLuongDetail"
+            android:textSize="30dp"
+
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Gia Bia : "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <EditText
+            android:id="@+id/edGiaBiaDetail"
+            android:textSize="30dp"
+
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/btnEditBook"
+            android:background="#ff99ff"
+            android:text="Edit"
+            android:layout_width="180dp"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnCancel"
+            android:background="#ff9900"
+            android:text="Delete"
+            android:layout_width="180dp"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:background="#38F186"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="TypeBook Detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Ma the loai"
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"/>
+        <EditText
+            android:id="@+id/edMaTheLoaiDetail"
+            android:textSize="30dp"
+            android:editable="true"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Ten the loai"
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"/>
+        <EditText
+            android:id="@+id/edTenTheLoaiDetail"
+            android:textSize="30dp"
+            android:editable="true"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Mo Ta "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"/>
+        <EditText
+            android:id="@+id/edMoTaDetail"
+            android:textSize="30dp"
+
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Vi tri: "
+            android:textSize="30dp"
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"/>
+        <EditText
+            android:id="@+id/edViTriDetail"
+            android:textSize="30dp"
+
+            android:background="#CCCC00"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/btnEditTypeBook"
+            android:background="#ff99ff"
+            android:text="Edit"
+            android:layout_width="180dp"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnCancel"
+            android:background="#ff9900"
+            android:text="Delete"
+            android:layout_width="180dp"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+</LinearLayout>

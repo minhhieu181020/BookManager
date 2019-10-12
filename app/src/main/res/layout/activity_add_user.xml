@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddUserActivity">
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edUserName"
+        android:background="#CCCC00"
+        android:layout_marginTop="10dp"
+        android:hint="User Name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+    <EditText
+        android:id="@+id/edPass"
+        android:inputType="textPassword"
+        android:background="#CCCC00"
+        android:layout_marginTop="10dp"
+        android:hint="PassWord"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+    <EditText
+       android:id="@+id/edPhone"
+        android:background="#CCCC00"
+        android:layout_marginTop="10dp"
+        android:hint="Phone"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+    <EditText
+        android:id="@+id/edFullName"
+        android:background="#CCCC00"
+        android:layout_marginTop="10dp"
+        android:hint="FullName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnUser"
+            android:onClick="addNewUser"
+            android:text="add"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Cancel"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <Button
+        android:onClick="openListUser"
+        android:layout_marginTop="10dp"
+        android:text="Show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

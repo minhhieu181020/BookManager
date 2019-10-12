@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#6A6BFFC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/user"
+            android:layout_width="70dp"
+            android:layout_height="100dp">
+        </ImageView>
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/tvText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="User Name:"
+                    android:textSize="25dp"
+                    android:textColor="#F00808" />
+                <TextView
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/tvText2"
+                    android:textSize="25dp"
+                    android:textColor="#EB0D0D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone:" />
+            </LinearLayout>
+
+        <ImageView
+
+           android:id="@+id/imgXoa"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_delete" />
+    </LinearLayout>
+
+</LinearLayout>
